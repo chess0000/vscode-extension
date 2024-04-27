@@ -1,0 +1,26 @@
+{
+  "publisher": "chess-color-theme",
+  "name": "chessbluetheme",
+  "displayName": "chessBlueTheme",
+  "description": "This color theme has been created using eye-friendly colors.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chess0000/vscode-extension"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "chess-blue-color-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chess-blue-color-theme-color-theme.json"
+      }
+    ]
+  }
+}
